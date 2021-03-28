@@ -1,0 +1,25 @@
+/*making lines for burger menu*/
+.burger-line {
+  border: 2px solid black;
+}
+
+/*putting background hero image*/
+.bg-image {
+  background: url("imgs/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+/*putting background color black*/
+.copyright {
+  background-color: black;
+}
+
+/*for pictures from blog posts to be full screen width on medium screen*/
+@media (min-width: 600px) {
+  .bigger-img {
+    width: 100%;
+  }
+}
